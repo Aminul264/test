@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>simple calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="calculator.js"></script>
+</head> 
+
+<body>
+    <table class="tble">
+      
+        <tr>
+            <td colspan="3" class="tv">
+                <h4 style="text-align: center;">Simple Calculator</h4>
+                    <input id="display" readonly>
+            </td>
+            <td>
+                <input type="submit" onclick="clr()" value="C">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="submit" onclick="disp('9')" value="9">
+            </td>
+            <td>
+                <input type="submit" onclick="disp('8')" value="8">
+            </td>
+            <td>
+                <input type="submit" onclick="disp('7')" value="7">
+            </td>
+            <td>
+                <input type="submit" onclick="disp('/')" value="/">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <input type="submit" onclick="disp('6')" value="6">
+            </td>
+            <td>
+                <input type="submit" onclick="disp('5')" value="5">
+            </td>
+            <td>
+                <input type="submit" onclick="disp('4')" value="4">
+            </td>
+            <td>
+                <input type="submit" onclick="disp('*')" value="*">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="submit" onclick="disp('3')" value="3">
+            </td>
+            <td>
+                <input type="submit" onclick="disp('2')" value="2">
+            </td>
+            <td>
+                <input type="submit" onclick="disp('1')" value="1">
+            </td>
+            <td>
+                <input type="submit" onclick="disp('-')" value="-">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="submit" onclick="disp('0')" value="0">
+            </td>
+            <td>
+                <input type="submit" onclick="disp('.')" value=".">
+            </td>
+            <td>
+                <input type="submit" onclick="sum('=')" value="=">
+            </td>
+            <td>
+                <input type="submit" onclick="disp('+')" value="+">
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
